@@ -8,7 +8,7 @@ export default function AboutMe (){return(<div className="about-me" id="about-se
             <a  id="about-me-link" href="#about-section">About me</a>
           </div>
           <div className="row">
-            <a id="projects-link" href="=#projects">Projects</a>
+            <a id="projects-link" href="#projects">Projects</a>
           </div>
           <div className="row"><a id="contact-link" href="#contact">Contact</a></div>
           <div className="row"><a id="blog-link" href="#blog">Blog</a></div>
