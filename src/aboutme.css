@@ -1,0 +1,72 @@
+.about-me {
+  background: linear-gradient(45deg, #0d7377, #32e0c4);
+  font-family: "Courier Prime", monospace;
+  height: 100vh;
+}
+.about-me .block {
+  background: white;
+  width: 70%;
+  height: 470px;
+  margin: 50px 0 30px 0;
+  padding: 2vw;
+  border-radius: 60px 0 60px 0;
+}
+.about-me .side-menu {
+  margin-top: 50px;
+  line-height: 2;
+  text-indent: 8px;
+}
+.about-me h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #0d7377;
+}
+.about-me .about-me-text {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.1;
+  color: #212121;
+}
+
+.about-me h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #0d7377;
+}
+.about-me ul {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+}
+.about-me li {
+  font-size: 14;
+  line-height: 17px;
+  color: #212121;
+}
+.about-me a {
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 4px 8px 4px 0;
+}
+.about-me #projects-link:hover,
+.about-me #blog-link:hover,
+.about-me #contact-link:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #32e0c4;
+  font-weight: bold;
+}
+.about-me #about-me-link {
+  opacity: 10%;
+}
+
+.about-me #profile-photo {
+  width: 15vw;
+  border-radius: 60px;
+}
+.about-me .skills-section {
+  margin-top: 2vw;
+}

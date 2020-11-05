@@ -1,0 +1,93 @@
+.projects {
+  background: white;
+  font-family: "Courier Prime", monospace;
+  height: 100vh;
+  width: 100vw;
+}
+.projects .block {
+  background: linear-gradient(45deg, #0d7377, #32e0c4);
+  width: 70%;
+  height: 470px;
+  margin: 50px 0 30px 0;
+  padding: 2vw;
+  border-radius: 60px 0 60px 0;
+}
+.projects .side-menu {
+  margin-top: 50px;
+  line-height: 2;
+  text-indent: 8px;
+}
+.projects h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.projects .menu-link {
+  color: #0d7377;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 4px 8px 4px 0;
+}
+.projects #about-me-link:hover,
+.projects #blog-link:hover,
+.projects #contact-link:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #32e0c4;
+  font-weight: bold;
+}
+.projects #projects-link {
+  opacity: 10%;
+}
+.projects .card {
+  background-color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  height: 40vh;
+  border: white;
+  padding: 0;
+}
+.projects .card-title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  color: #0d7377;
+}
+.projects .card-text {
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.1;
+  color: #0d7377;
+}
+.projects #weather-app-link {
+  margin: 0;
+  padding: 0;
+}
+.projects .card-body {
+  padding: 10px;
+}
+.projects .image-container {
+  max-height: 26vh;
+  overflow: hidden;
+}
+.projects .img {
+  object-fit: cover;
+}
+.projects img:hover {
+  opacity: 40%;
+}
+
+.projects #projects {
+  border-radius: 10px;
+  color: #0d7377;
+  padding: 4px 8px 4px 0;
+}
+.projects .footer {
+  font-size: 10px;
+  line-height: 1;
+  padding: 0;
+  color: #0d7377;
+}
