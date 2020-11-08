@@ -6,22 +6,9 @@ export default function Project(){ return(
   <div className="projects" id="projects">
     <div className="container">
       <div className="row">
-        <div className="side-menu col-1">
-          <div className="row">
-            <a className="menu-link" id="about-me-link" href="#about-section">About me</a>
-          </div>
-          <div className="row">
-            <a className="menu-link" id="projects-link" href="#projects">Projects</a>
-          </div>
-          <div className="row">
-            <a className="menu-link" id="contact-link" href="#contact">Contact</a>
-          </div>
-          <div className="row">
-            <a className="menu-link" id="blog-link" href="#blog">Blog</a>
-          </div>
-        </div>
+        
         <div className="col-1"></div>
-        <div className="block col-9">
+        <div className="block col-10">
           <h1>Projects</h1>
           <div className="card-deck">
             <div className="card">

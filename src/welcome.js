@@ -2,8 +2,8 @@ import React from "react";
 
 
 export default function Welcome(){
-       
-    return(<div className="welcome container">
+  
+     return(<div className="welcome container">
       <div className="jumbotron">
         <div className="welcome-text">
         <h1 className="display-4">Hello!</h1>
@@ -17,4 +17,6 @@ export default function Welcome(){
         
         <a className="btn btn-primary btn-lg" href="#about-section">Learn more</a>
       </div>
-    </div>)}
+    </div>
+
+     )}

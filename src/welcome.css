@@ -103,7 +103,7 @@ hr {
   width: 170px;
   box-shadow: 3px 3px 10px #0d7377;
 }
-lwelcome .btn:active {
+.welcome .btn:active {
   background-color: #eeeeee;
 
   color: #0d7377;

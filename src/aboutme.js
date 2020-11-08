@@ -1,20 +1,15 @@
 import React from "react"
 import PIC1 from "./images/pic1.png"
+import Menu from "./menu.js"
 
-export default function AboutMe (){return(<div className="about-me" id="about-section"><div class="container">
+export default function AboutMe (){return(
+<div className="about-me" id="about-section">
+  <Menu />
+  <div class="container">
       <div className="row">
-        <div className="side-menu col-1">
-          <div className="row">
-            <a  id="about-me-link" href="#about-section">About me</a>
-          </div>
-          <div className="row">
-            <a id="projects-link" href="#projects">Projects</a>
-          </div>
-          <div className="row"><a id="contact-link" href="#contact">Contact</a></div>
-          <div className="row"><a id="blog-link" href="#blog">Blog</a></div>
-        </div>
-        <div className="col-1"></div>
-        <div className="block col-9">
+      
+       
+        <div className="block col-10">
           <h1>About me</h1>
           <div className="row">
           <div className="col-3"><img src={PIC1} alt="about_me_img" id="profile-photo"/></div>
