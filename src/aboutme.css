@@ -1,5 +1,5 @@
 .about-me {
-  background: linear-gradient(45deg, #0d7377, #32e0c4);
+  background: linear-gradient(45deg, #32e0c4, #0d7377);
   font-family: "Courier Prime", monospace;
   height: 100vh;
 }
@@ -25,6 +25,9 @@
   color: #212121;
 }
 
+.about-me .row {
+  max-height: 230px;
+}
 .about-me h3 {
   font-size: 16px;
   font-weight: bold;
@@ -37,8 +40,8 @@
   padding-left: 0;
 }
 .about-me li {
-  font-size: 14;
-  line-height: 17px;
+  font-size: 13px;
+  line-height: 15px;
   color: #212121;
 }
 .about-me a {
@@ -50,8 +53,10 @@
 
 .about-me #profile-photo {
   width: 15vw;
-  border-radius: 60px;
+  border-radius: 50px;
+  position: relative;
+  top: -45px;
 }
 .about-me .skills-section {
-  margin-top: 2vw;
+  margin-top: 0;
 }

@@ -1,5 +1,5 @@
 import React from "react"
-import PIC1 from "./images/pic1.png"
+import PIC from "./images/pic2.jpg"
 import Menu from "./menu.js"
 
 export default function AboutMe (){return(
@@ -12,7 +12,7 @@ export default function AboutMe (){return(
         <div className="block col-10">
           <h1>About me</h1>
           <div className="row">
-          <div className="col-3"><img src={PIC1} alt="about_me_img" id="profile-photo"/></div>
+          <div className="col-3"><img src={PIC} alt="about_me_img" id="profile-photo"/></div>
 
           <div className ="col-9 about-me-text">
             My name is Felicity, but I'm often known as Flip. I'm an aspiring
