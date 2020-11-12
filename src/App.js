@@ -7,6 +7,8 @@ import "./aboutme.css"
 import Projects from "./projects.js"
 import "./projects.css"
 import "./menu.css"
+import Contact from "./contact.js"
+import "./contact.css"
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
       
   <AboutMe/>
   <Projects/>
+  <Contact/>
    </div>
   );
 }

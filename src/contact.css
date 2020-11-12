@@ -1,0 +1,63 @@
+.contact {
+  background: linear-gradient(45deg, #32e0c4, #0d7377);
+  font-family: "Courier Prime", monospace;
+  height: 100vh;
+}
+.contact .block {
+  align-content: center;
+  background: white;
+  height: 470px;
+  margin: 50px 0 30px 100px;
+  padding: 2vw;
+  border-radius: 60px 0 60px 0;
+}
+
+.contact h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #0d7377;
+  margin-bottom: 30px;
+}
+.contact .symbols {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 100px;
+  color: #0d7377;
+}
+.contact .fa-linkedin {
+  animation: wiggle;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes wiggle {
+  10% {
+    transform: translateY(-20px);
+  }
+  20% {
+    transform: translateY(-40px);
+  }
+
+  50% {
+    transform: translateY(-40px) rotate(10deg);
+  }
+  60% {
+    transform: translateY(-40px) rotate(-10deg);
+  }
+
+  70% {
+    transform: translateY(-40px) rotate(10deg);
+  }
+
+  80% {
+    transform: translateY(-40px) rotate(-10deg);
+  }
+  90% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
