@@ -19,23 +19,6 @@
   color: white;
 }
 
-.projects .menu-link {
-  color: #0d7377;
-  text-decoration: none;
-  border-radius: 10px;
-  padding: 4px 8px 4px 0;
-}
-.projects #about-me-link:hover,
-.projects #blog-link:hover,
-.projects #contact-link:hover {
-  color: white;
-  text-decoration: none;
-  background-color: #32e0c4;
-  font-weight: bold;
-}
-.projects #projects-link {
-  opacity: 10%;
-}
 .projects .card {
   background-color: rgb(255, 255, 255, 0.5);
   text-align: center;
@@ -50,7 +33,11 @@
   margin: 0;
   color: #0d7377;
 }
-.projects .card-text {
+.projects .fa-star {
+  font-size: 6px;
+}
+.projects .card-text,
+.projects .skills {
   font-size: 10px;
   margin-top: 5px;
   margin-bottom: 5px;

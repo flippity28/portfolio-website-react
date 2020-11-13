@@ -51,6 +51,9 @@ export default function Project(){ return(
               <div className="card-body">
                 <h5 className="card-title">React Weather App</h5>
                 <p className="card-text">Weather app was created using React as part of the SheCodes React course</p>
+                <p className="skills"><strong>
+                  
+                  <i class="fas fa-star"></i>HTML<i class="fas fa-star"></i>CSS<i class="fas fa-star"></i>Bootstrap<i class="fas fa-star"></i>API<i class="fas fa-star"></i>React<i class="fas fa-star"></i></strong></p>
               <div className="footer">
                 View on <a href="https://github.com/flippity28/weather-app-react" target="_blank" rel="noreferrer">Git</a>
               </div></div>
@@ -63,7 +66,7 @@ export default function Project(){ return(
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Project 3</h5>
+                <h5 className="card-title">Portfolio website</h5>
                 <p className="card-text">Project 3 description</p>
               <div className="footer">
                View on <a href="...">Git</a>

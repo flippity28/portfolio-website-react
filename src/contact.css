@@ -10,6 +10,7 @@
   margin: 50px 0 30px 100px;
   padding: 2vw;
   border-radius: 60px 0 60px 0;
+  text-align: center;
 }
 
 .contact h1 {
@@ -19,45 +20,75 @@
   color: #0d7377;
   margin-bottom: 30px;
 }
-.contact .symbols {
+.contact button {
+  display: block;
   font-size: 70px;
   text-align: center;
-  margin-top: 100px;
+  margin: 100px auto;
+  transition: 200ms ease-in-out;
   color: #0d7377;
+  background-color: transparent;
+  border: none;
 }
+
 .contact .fa-linkedin {
   animation: wiggle;
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+.contact .fa-envelope-open-text {
+  animation: wiggle;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+.contact .fa-github {
+  animation: wiggle;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
 }
 @keyframes wiggle {
   10% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   20% {
-    transform: translateY(-40px);
+    transform: translateY(-20px);
+  }
+
+  30% {
+    transform: translateY(-20px) rotate(10deg);
+  }
+  40% {
+    transform: translateY(-20px) rotate(-10deg);
   }
 
   50% {
-    transform: translateY(-40px) rotate(10deg);
+    transform: translateY(-20px) rotate(10deg);
   }
+
   60% {
-    transform: translateY(-40px) rotate(-10deg);
+    transform: translateY(-20px) rotate(-10deg);
   }
-
   70% {
-    transform: translateY(-40px) rotate(10deg);
+    transform: translateY(-20px) rotate(10deg);
   }
-
   80% {
-    transform: translateY(-40px) rotate(-10deg);
+    transform: translateY(-10px);
   }
   90% {
-    transform: translateY(-20px);
-  }
-  100% {
     transform: translateY(0);
   }
+}
+.contact button:hover {
+  animation: wiggle;
+  animation-duration: 1s;
+}
+.contact button:focus {
+  border: none;
+  outline: none;
 }
