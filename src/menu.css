@@ -3,7 +3,7 @@
   position: fixed;
   left: 30px;
   top: 40px;
-  color: #0d7377;
+  color: #212121;
 }
 .side-menu button {
   background-color: transparent;
@@ -13,7 +13,7 @@
   margin-top: 5vh;
   text-align: left;
   padding: 5px;
-  color: #0d7377;
+  color: #212121;
   border-radius: 10px;
   transition: 200ms ease-in-out;
 }

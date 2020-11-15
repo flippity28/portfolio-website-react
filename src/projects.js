@@ -1,80 +1,66 @@
 import React from "react"
+import Carousel from 'react-bootstrap/Carousel'
 import WeatherAppImage from "./images/weather-app-img.jpg"
 import WeatherAppReactImage from "./images/weather-app-react-img.jpg"
+import PortfolioImage from "./images/portfolio-img.jpg"
 
 export default function Project(){ return(
   <div className="projects" id="projects">
     <div className="container">
+      
       <div className="row">
         
         <div className="col-1"></div>
         <div className="block col-10">
           <h1>Projects</h1>
-          <div className="card-deck">
-            <div className="card">
-              <div className = "image-container"><a
-                href="https://optimistic-babbage-91afd3.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                id="weather-app-link"
-                ><img
-                  src={WeatherAppImage}
-                  className="card-img-top"
-                  alt="weather-app"
-                  id="weather-app-img"
-              /></a></div>
-
-              <div className="card-body">
-                <h5 className="card-title">Weather App</h5>
-                <p className="card-text">
-                  As part of SheCodes Plus course I created this weather app
-                  from scratch.
-                </p> 
-                <div className="footer">
-                View on <a href="...">Git</a>
-              </div>
-              </div>
-             
-            </div>
-            <div className="card">
-              <div className="image-container"><a
-                href="https://amazing-kowalevski-4be0cd.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                id="weather-app--react-link">
-                <img
-                src={WeatherAppReactImage}
-                className="card-img-top"
-                alt="weather-app-react-img"
-              /></a></div>
-              
-              <div className="card-body">
-                <h5 className="card-title">React Weather App</h5>
-                <p className="card-text">Weather app was created using React as part of the SheCodes React course</p>
-                <p className="skills"><strong>
-                  
-                  <i class="fas fa-star"></i>HTML<i class="fas fa-star"></i>CSS<i class="fas fa-star"></i>Bootstrap<i class="fas fa-star"></i>API<i class="fas fa-star"></i>React<i class="fas fa-star"></i></strong></p>
-              <div className="footer">
-                View on <a href="https://github.com/flippity28/weather-app-react" target="_blank" rel="noreferrer">Git</a>
-              </div></div>
-              
-            </div>
-            <div className="card">
-              <img
-                src="./src/images/background pattern.jpg"
-                className="card-img-top"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">Portfolio website</h5>
-                <p className="card-text">Project 3 description</p>
-              <div className="footer">
-               View on <a href="...">Git</a>
-              </div></div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>)}
+        <Carousel>
+  <Carousel.Item>
+    <div className ="carousel-container">
+   <a href="https://optimistic-babbage-91afd3.netlify.app/" target="_blank" rel="noreferrer"> <img
+      className="d-block w-100"
+      src={WeatherAppImage}
+      alt="Weather App"
+    /></a><div className="carousel-tooltip"> Click to view project </div></div>
+    <Carousel.Caption>
+            <div className="project-title">Weather App</div>
+      <div className="project-description">I created this Weather App as my final project on the SheCodes Plus course.</div>
+      <div>
+      HTML - CSS - Javascript - Bootstrap - API</div>
+      <div> View on <a class="github-link" href="https://github.com/flippity28/Weather-app" target="_blank" rel="noreferrer">GitHub</a></div>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+  <div className ="carousel-container">
+   <a href="https://amazing-kowalevski-4be0cd.netlify.app/" target="_blank" rel="noreferrer"> <img
+      className="d-block w-100"
+      src={WeatherAppReactImage}
+      alt="React Weather App"
+    /></a><div className="carousel-tooltip"> Click to view project </div></div>
+    <Carousel.Caption>
+            <div className="project-title">React Weather App</div>
+      <div className="project-description">I created this Weather App as my final project on the SheCodes React course.</div>
+      <div>
+      HTML - CSS - Bootstrap - API - React - npm</div>
+      <div> View on <a class="github-link" href="https://github.com/flippity28/weather-app-react" target="_blank" rel="noreferrer">GitHub</a></div>
+    </Carousel.Caption>
+   
+  </Carousel.Item>
+  <Carousel.Item>
+     <div className ="carousel-container">
+   <a href="https://practical-northcutt-3cd937.netlify.app/" target="_blank" rel="noreferrer"> <img
+      className="d-block w-100"
+      src={PortfolioImage}
+      alt="Portfolio Website"
+    /></a><div className="carousel-tooltip"> Click to view project </div></div>
+    <Carousel.Caption>
+            <div className="project-title">Portfolio Website</div>
+      <div className="project-description">Having enjoyed the SheCodes course so much I decided to continue coding and create my portfolio website. </div>
+      <div>
+      HTML - CSS - Bootstrap - React - npm</div>
+      <div> View on <a class="github-link" href="" target="_blank" rel="noreferrer">GitHub</a></div>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+       
+         
+    </div></div> </div></div>)}

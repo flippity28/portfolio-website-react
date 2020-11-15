@@ -19,57 +19,62 @@
   color: white;
 }
 
-.projects .card {
-  background-color: rgb(255, 255, 255, 0.5);
-  text-align: center;
-  height: 40vh;
-  border: white;
-  padding: 0;
-}
-.projects .card-title {
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 1;
-  margin: 0;
-  color: #0d7377;
-}
-.projects .fa-star {
-  font-size: 6px;
-}
-.projects .card-text,
-.projects .skills {
-  font-size: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  line-height: 1.1;
-  color: #0d7377;
-}
 .projects #weather-app-link {
   margin: 0;
   padding: 0;
 }
-.projects .card-body {
-  padding: 10px;
+.projects .carousel {
+  height: 70vh;
 }
-.projects .image-container {
-  max-height: 26vh;
-  overflow: hidden;
+
+.projects img {
+  display: block;
+  margin: 0 auto;
+  max-width: 40vw;
 }
-.projects .img {
-  object-fit: cover;
+.projects .carousel-tooltip {
+  position: absolute;
+  top: 40%;
+  left: 36%;
+  opacity: 0%;
+  transition: 200ms ease-in-out;
+  font-size: 20px;
+  font-weight: bold;
+  color: #212121;
 }
-.projects img:hover {
+.projects .carousel-caption {
+  display: block;
+  margin: -40px auto;
+  max-width: 40vw;
+  height: 18vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #0d7377;
+  padding: 0 3px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+.projects .project-title {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.projects .github-link {
+  color: #0d7377;
+}
+.projects .github-link:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+.projects .carousel-container:hover img {
   opacity: 40%;
+}
+.projects .carousel-container:hover .carousel-tooltip {
+  opacity: 100%;
 }
 
 .projects #projects {
   border-radius: 10px;
   color: #0d7377;
   padding: 4px 8px 4px 0;
-}
-.projects .footer {
-  font-size: 10px;
-  line-height: 1;
-  padding: 0;
-  color: #0d7377;
 }
