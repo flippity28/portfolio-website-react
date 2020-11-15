@@ -101,7 +101,6 @@ hr {
   color: #0d7377;
   font-size: 22px;
   width: 170px;
-  box-shadow: 3px 3px 10px #0d7377;
 }
 .welcome .btn:active {
   background-color: #eeeeee;

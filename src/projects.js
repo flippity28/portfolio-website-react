@@ -57,7 +57,7 @@ export default function Project(){ return(
       <div className="project-description">Having enjoyed the SheCodes course so much I decided to continue coding and create my portfolio website. </div>
       <div>
       HTML - CSS - Bootstrap - React - npm</div>
-      <div> View on <a class="github-link" href="" target="_blank" rel="noreferrer">GitHub</a></div>
+      <div> View on <a class="github-link" href="https://github.com/flippity28/portfolio-website-react" target="_blank" rel="noreferrer">GitHub</a></div>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
