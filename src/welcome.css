@@ -4,6 +4,8 @@ html {
 .welcome {
   background-color: white;
   font-family: "Courier Prime", monospace;
+}
+.welcome .container {
   height: 100vh;
 }
 .welcome .jumbotron {
