@@ -1,25 +1,43 @@
 .side-menu {
   font-family: "Courier Prime", monospace;
   position: fixed;
-  left: 30px;
-  top: 40px;
+  left: 2vw;
+  top: 2vh;
   color: #212121;
+  z-index: 1;
 }
+
 .side-menu button {
   background-color: transparent;
   border: none;
   outline: none;
   margin-left: 0;
-  margin-top: 5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   text-align: left;
   padding: 5px;
   color: #212121;
   border-radius: 10px;
   transition: 200ms ease-in-out;
 }
+
+@media screen and (max-width: 600px) {
+  .side-menu {
+    margin-left: 0;
+  }
+  .side-menu .menu-link {
+    background-color: white;
+    min-width: 90vw;
+    margin-left: 0;
+  }
+  .side-menu .link-button {
+    width: 80vw;
+    text-align: center;
+  }
+}
 .side-menu a {
   padding: 0;
-  margin-left: 15px;
+  margin-left: 3vh;
 }
 .side-menu .link-button:hover {
   background-color: #32e0c4;
@@ -28,4 +46,5 @@
 
 .side-menu .fas {
   font-size: 25px;
+  background-color: transparent;
 }

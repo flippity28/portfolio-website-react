@@ -12,9 +12,9 @@ export default function AboutMe (){return(
         <div className="block col-10">
           <h1>About me</h1>
           <div className="row">
-          <div className="col-3"><img src={PIC} alt="about_me_img" id="profile-photo"/></div>
-
-          <div className ="col-9 about-me-text">
+                   
+          <div className ="col about-me-text">
+            <img src={PIC} alt="about_me_img" id="profile-photo"/>
             My name is Felicity, but I'm often known as Flip. I'm an aspiring
             Front End / Web Developer from Hampshire, UK. I have a Masters
             degree in Chemistry and 8 years' experience developing new products
@@ -27,6 +27,7 @@ export default function AboutMe (){return(
             from there I was hooked. I went on to complete the SheCodes Plus
             course and the SheCodes React course.</div>
         </div>
+       
           <div className="row skills-section">
             <div className="col-4">
               <h3>Coding skills</h3>
@@ -70,6 +71,7 @@ export default function AboutMe (){return(
           </div>
         </div>
       </div>
+      </div>
     </div>
-  </div>
+ 
   )}

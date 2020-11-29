@@ -1,35 +1,33 @@
 .about-me {
   background: linear-gradient(45deg, #32e0c4, #0d7377);
   font-family: "Courier Prime", monospace;
-  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 .about-me .block {
   align-content: center;
   background: white;
-  height: 470px;
-  margin: 50px 0 30px 100px;
+  min-height: 80vh;
+  margin: 4vw 8vw 4vw 8vw;
   padding: 2vw;
-  border-radius: 60px 0 60px 0;
+  border-radius: 4vh 0 4vh 0;
 }
 
 .about-me h1 {
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 5vh;
   color: #0d7377;
 }
 .about-me .about-me-text {
-  font-size: 16px;
+  font-size: 1.2vw;
   text-align: justify;
   line-height: 1.1;
   color: #212121;
 }
 
-.about-me .row {
-  max-height: 230px;
-}
 .about-me h3 {
-  font-size: 16px;
+  font-size: 1.3vw;
   font-weight: bold;
   text-align: center;
   color: #0d7377;
@@ -40,7 +38,7 @@
   padding-left: 0;
 }
 .about-me li {
-  font-size: 13px;
+  font-size: 1.1vw;
   line-height: 15px;
   color: #212121;
 }
@@ -52,11 +50,30 @@
 }
 
 .about-me #profile-photo {
-  width: 15vw;
-  border-radius: 50px;
-  position: relative;
-  top: -45px;
+  float: left;
+  margin-right: 1.5vw;
+  width: 12vw;
+  border-radius: 4vh;
 }
 .about-me .skills-section {
-  margin-top: 0;
+  margin-top: 5vh;
+}
+@media screen and (max-width: 600px) {
+  .about-me .block {
+    min-width: 80%;
+    margin-top: 10vh;
+  }
+  .about-me h3 {
+    font-size: 2vh;
+  }
+  .about-me li {
+    font-size: 1.5vh;
+  }
+  .about-me .about-me-text {
+    font-size: 15px;
+    width: 70%;
+  }
+  .about-me #profile-photo {
+    width: 20vw;
+  }
 }
