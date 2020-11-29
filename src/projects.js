@@ -17,7 +17,7 @@ export default function Project(){ return(
   <Carousel.Item>
     <div className ="carousel-container">
    <a href="https://optimistic-babbage-91afd3.netlify.app/" target="_blank" rel="noreferrer"> <img
-      className="d-block w-100"
+      className="d-block"
       src={WeatherAppImage}
       alt="Weather App"
     /></a><div className="carousel-tooltip"> Click to view project </div></div>
@@ -26,13 +26,13 @@ export default function Project(){ return(
       <div className="project-description">I created this Weather App as my final project on the SheCodes Plus course.</div>
       <div>
       HTML - CSS - Javascript - Bootstrap - API</div>
-      <div> View on <a class="github-link" href="https://github.com/flippity28/Weather-app" target="_blank" rel="noreferrer">GitHub</a></div>
+      <div className="view-github"> View on <a class="github-link" href="https://github.com/flippity28/Weather-app" target="_blank" rel="noreferrer">GitHub</a></div>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
   <div className ="carousel-container">
    <a href="https://amazing-kowalevski-4be0cd.netlify.app/" target="_blank" rel="noreferrer"> <img
-      className="d-block w-100"
+      className="d-block"
       src={WeatherAppReactImage}
       alt="React Weather App"
     /></a><div className="carousel-tooltip"> Click to view project </div></div>
@@ -41,14 +41,14 @@ export default function Project(){ return(
       <div className="project-description">I created this Weather App as my final project on the SheCodes React course.</div>
       <div>
       HTML - CSS - Bootstrap - API - React - npm</div>
-      <div> View on <a class="github-link" href="https://github.com/flippity28/weather-app-react" target="_blank" rel="noreferrer">GitHub</a></div>
+      <div className="view-github"> View on <a class="github-link" href="https://github.com/flippity28/weather-app-react" target="_blank" rel="noreferrer">GitHub</a></div>
     </Carousel.Caption>
    
   </Carousel.Item>
   <Carousel.Item>
      <div className ="carousel-container">
    <a href="https://practical-northcutt-3cd937.netlify.app/" target="_blank" rel="noreferrer"> <img
-      className="d-block w-100"
+      className="d-block"
       src={PortfolioImage}
       alt="Portfolio Website"
     /></a><div className="carousel-tooltip"> Click to view project </div></div>
@@ -57,7 +57,7 @@ export default function Project(){ return(
       <div className="project-description">Having enjoyed the SheCodes course so much I decided to continue coding and create my portfolio website. </div>
       <div>
       HTML - CSS - Bootstrap - React - npm</div>
-      <div> View on <a class="github-link" href="https://github.com/flippity28/portfolio-website-react" target="_blank" rel="noreferrer">GitHub</a></div>
+      <div className="view-github"> View on <a class="github-link" href="https://github.com/flippity28/portfolio-website-react" target="_blank" rel="noreferrer">GitHub</a></div>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

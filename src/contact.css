@@ -6,10 +6,10 @@
 .contact .block {
   align-content: center;
   background: white;
-  height: 470px;
-  margin: 50px 0 30px 100px;
+  min-height: 80vh;
+  margin: 10vh 8vw 4vw 8vw;
   padding: 2vw;
-  border-radius: 60px 0 60px 0;
+  border-radius: 4vh 0 4vh 0;
   text-align: center;
 }
 
@@ -91,4 +91,10 @@
 .contact button:focus {
   border: none;
   outline: none;
+}
+@media screen and (max-width: 600px) {
+  .contact .block {
+    min-width: 80%;
+    margin-top: 10vh;
+  }
 }
