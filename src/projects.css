@@ -7,7 +7,7 @@
 .projects .block {
   background: linear-gradient(45deg, #0d7377, #32e0c4);
   min-height: 80vh;
-  margin: 10vh 8vw 4vw 8vw;
+  margin: 10vh 4vw 10vh 8vw;
   padding: 2vw;
   border-radius: 4vh 0 4vh 0;
   text-align: center;
@@ -90,10 +90,10 @@
     left: 9.8vw;
   }
   .projects img {
-    margin-top: 10vh;
+    padding-top: 60px;
     min-width: 60vw;
   }
   .projects .carousel-container {
-    min-height: 50vh;
+    height: 60vh;
   }
 }

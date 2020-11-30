@@ -2,6 +2,7 @@
   background: linear-gradient(45deg, #32e0c4, #0d7377);
   font-family: "Courier Prime", monospace;
   height: 100vh;
+  min-width: 100vw;
 }
 .contact .block {
   align-content: center;
