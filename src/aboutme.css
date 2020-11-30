@@ -1,14 +1,14 @@
 .about-me {
   background: linear-gradient(45deg, #32e0c4, #0d7377);
   font-family: "Courier Prime", monospace;
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 .about-me .block {
   align-content: center;
   background: white;
-  min-height: 80vh;
-  margin: 10vh 8vw 4vw 8vw;
+  min-height: 70vh;
+  margin: 8vh 8vw 10vh 8vw;
   padding: 2vw;
   border-radius: 4vh 0 4vh 0;
 }
