@@ -2,7 +2,7 @@
   font-family: "Courier Prime", monospace;
   position: fixed;
   left: 2vw;
-  top: 2vh;
+  top: 20px;
   color: #212121;
   z-index: 2;
 }
