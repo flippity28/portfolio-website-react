@@ -10,8 +10,7 @@ export default function Project(){ return(
       
       <div className="row">
         
-        <div className="col-1"></div>
-        <div className="block col-10">
+                <div className="block col-10">
           <h1>Projects</h1>
         <Carousel>
   <Carousel.Item>

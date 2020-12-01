@@ -8,7 +8,8 @@
   align-content: center;
   background: white;
   min-height: 80vh;
-  margin: 8vh 8vw 10vh 8vw;
+  max-width: 80vw;
+  margin: 8vh auto 10vh;
   padding: 2vw;
   border-radius: 4vh 0 4vh 0;
 }
