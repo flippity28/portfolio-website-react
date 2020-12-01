@@ -4,17 +4,17 @@ html {
 .welcome {
   background-color: white;
   font-family: "Courier Prime", monospace;
-}
-.welcome .container {
   height: 100vh;
 }
+
 .welcome .jumbotron {
-  margin: 20vh auto;
+  margin: 10vh auto;
   background-color: #32e0c4;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #eeeeee;
   width: 80%;
   padding-top: 4vh;
+  height: 80vh;
 }
 .welcome h1 {
   color: #0d7377;
