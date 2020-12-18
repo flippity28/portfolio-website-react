@@ -27,6 +27,9 @@
 .projects .carousel {
   height: 70vh;
 }
+.project .carousel-inner {
+  overflow: none !important;
+}
 
 .projects img {
   display: block;
@@ -43,19 +46,24 @@
   font-weight: bold;
   color: #212121;
 }
-.projects .carousel-caption {
-  display: block;
-  margin: -40px auto;
-  max-width: 40vw;
-  height: 18vh;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #0d7377;
-  padding: 0 3px;
-  font-size: 12px;
-  line-height: 1.2;
+@media screen and (min-width: 801px) {
+  .projects .carousel-caption {
+    display: block;
+    position: absolute;
+    bottom: 0vh;
+    margin: 0 auto;
+    max-width: 40vw;
+    height: 18vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #0d7377;
+    padding: 0 3px;
+    font-size: 1.8vh;
+    line-height: 1.2;
+  }
 }
 .projects .project-title {
-  font-size: 14px;
+  margin-top: 2vh;
+  font-size: 2.4vh;
   font-weight: bold;
   padding: 3px;
 }
@@ -82,13 +90,21 @@
   color: #0d7377;
   padding: 4px 8px 4px 0;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .projects .carousel-caption {
-    margin-top: 20vh;
+    margin: 0 auto;
     min-width: 60vw;
     min-height: 23vh;
     position: absolute;
-    left: 9.8vw;
+    left: 10%;
+    display: block;
+    bottom: 0vh;
+    height: 18vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #0d7377;
+    padding: 0 3px;
+    font-size: 1.6vh;
+    line-height: 1.2;
   }
   .projects img {
     padding-top: 60px;

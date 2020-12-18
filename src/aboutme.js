@@ -23,9 +23,9 @@ export default function AboutMe (){return(
             partner I ended up stuck in a rut with my career and decided
             something had to change. That's when I decided to learn to code.
             Having researched self-learning and bootcamp options, in August 2020
-            I took my first SheCodes course, the 'Introduction to Coding' and
+            I took my first SheCodes course, 'Introduction to Coding', and
             from there I was hooked. I went on to complete the SheCodes Plus
-            course and the SheCodes React course.</div>
+            course and the SheCodes React course. Here I am today building my own website / portfolio...</div>
         </div>
        
           <div className="row skills-section">
@@ -61,7 +61,7 @@ export default function AboutMe (){return(
                 <li>Crossfit</li>
                 <li>Hiking</li>
                 <li>Baking</li>
-                <li>My cat, Erwin 😻</li>
+                <li>Erwin 😻</li>
                 <li></li>
                 <li></li>
                 <li></li>
